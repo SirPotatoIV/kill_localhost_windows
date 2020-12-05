@@ -3,7 +3,7 @@
 Simple batch file, that can be run using CMD, that uses prompts to kill a port on a windows machine. Created becaues I'm lazy and don't want to remeber the 2 easy commands.
 
 
-### How to Use
+## How to Use
 
  1. Download the `kill_localhost.bat`.
      - Make sure to save the file in a spot you can easily get to in a terminal.
@@ -18,7 +18,7 @@ Simple batch file, that can be run using CMD, that uses prompts to kill a port o
  8. You should recieve back a success output message confirming the port was killed.
 
 
- ### How it Works
+ ## How it Works
 
  There are 2 main commands used to accomplish this task. If you search for "How to kill a port on Windows, they should come up right away.
  
@@ -33,7 +33,7 @@ Simple batch file, that can be run using CMD, that uses prompts to kill a port o
       - `%PID%` is a variable I am using to store your input into the question about what the PID is for the port you want to kill. 
       - `/F` is an option for `taskill`, that means to forcefully kill the task. Don't ask me, just do it.
 
-## Alternative to this file
+## Alternative to Using this Batch File
 
 You could really just do 
 ```netstat -ano | findstr 3000``` 
